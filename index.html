@@ -1,71 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Item Wars</title>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Item Wars</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #1a1a1a;
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            padding: 50px;
+        }
+        .btn {
+            background-color: #ff4548;
+            color: white;
+            padding: 15px 30px;
+            font-size: 20px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        .btn:hover {
+            background-color: #ff2a2e;
+        }
+    </style>
 </head>
 <body>
-  <header class="hero">
-    <nav>
-      <h1>Item Wars</h1>
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#rules">Rules</a></li>
-        <li><a href="#shop">Shop</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-    <div class="hero-text">
-      <h2>The Ultimate Battle of Absurd Tools!</h2>
-      <p>Equip crazy items, outsmart your foes, and dominate the cylindrical arena.</p>
-      <a href="#about" class="btn">Learn More</a>
+    <div class="container">
+        <h1>Welcome to Item Wars!</h1>
+        <p>Fight with unique items and battle for glory!</p>
+        <button class="btn" onclick="playGame()">Play Now</button>
     </div>
-  </header>
-
-  <main>
-    <section id="about" class="section">
-      <h2>About Item Wars</h2>
-      <p>Inspired by Slap Battles, Item Wars is an epic Roblox game where players use wacky tools and unique abilities to fight for glory! Whether you’re blasting through opponents with a Rocket Rider or trolling them with a Banana, chaos is guaranteed. Join now and become a legend!</p>
-    </section>
-
-    <section id="rules" class="section">
-      <h2>Game Rules</h2>
-      <ul>
-        <li>🚫 No exploiting or hacking. Instant ban!</li>
-        <li>🐛 Don’t abuse bugs or glitches. Play fair!</li>
-        <li>🤝 No teaming with exploiters or farming kills/items.</li>
-        <li>💬 Respect other players and staff members.</li>
-      </ul>
-    </section>
-
-    <section id="shop" class="section">
-      <h2>Shop</h2>
-      <div class="shop-items">
-        <div class="item">
-          <h3>Small Coin Pack</h3>
-          <p>2,500 Coins for 100 Robux</p>
-        </div>
-        <div class="item">
-          <h3>Rocket Rider</h3>
-          <p>300 Robux for the ultimate tool.</p>
-        </div>
-        <div class="item">
-          <h3>+1 Item Slot</h3>
-          <p>10,000 Coins or 200 Robux</p>
-        </div>
-      </div>
-    </section>
-
-    <section id="contact" class="section">
-      <h2>Contact Us</h2>
-      <p>Have a question or need help? Reach out to us on <a href="https://discord.gg/your-server" target="_blank">Discord</a>.</p>
-    </section>
-  </main>
-
-  <footer>
-    <p>&copy; 2024 Item Wars by GeoFlame. All rights reserved.</p>
-  </footer>
+    <script>
+        function playGame() {
+            window.location.href = 'https://www.roblox.com/games/YourGameIDHere';
+        }
+    </script>
 </body>
 </html>
